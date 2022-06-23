@@ -6,7 +6,50 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+div {
+   border-style: solid;
+    border-width: 5px;
+    position: fixed;
+     margin: 5px;
+     padding: 5px;
+     width: 25%;
+  height: 25%;
+}
+
+a {
+   color: #ffffff;
+   text-decoration: none;
+   background-color: #2f418e;
+}
+
+#link {
+   /*background-color: #2f418e;
+   width: 100px;*/
+   text-align: center;
+}
+
 /* Here is one of many  CSS rules you will need... */
 #one {
-    
+      border-color: blue;
+  bottom: 0;
+  right: 0;
+}
+
+#two {
+      border-color: green;
+  top: 0;
+  right: 0;
+}
+
+
+#three {
+      border-color: orange;
+  top: 0;
+  left: 0;
+}
+
+#four {
+      border-color: yellow;
+  bottom: 0;
+  left: 0;
 }
